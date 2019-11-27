@@ -38,6 +38,7 @@
               name="fname"
               id="fname"
               placeholder="First Name"
+              aria-label="First Name Field"
             />
             <p id="fname-error" class="hidden">First name cannot be empty</p>
             <input
@@ -45,6 +46,7 @@
               name="lname"
               id="lname"
               placeholder="Last Name"
+              aria-label="Last Name Field"
             />
             <p id="lname-error" class="hidden">Last name cannot be empty</p>
             <input
@@ -52,11 +54,18 @@
               name="email"
               id="email"
               placeholder="Email Address"
+              aria-label="Email field"
             />
             <p id="email-error" class="hidden">
               Looks like this is not an email
             </p>
-            <input type="text" name="pw" id="pw" placeholder="Password" />
+            <input
+              type="text"
+              name="pw"
+              id="pw"
+              placeholder="Password"
+              aria-label="Password Field"
+            />
             <p id="pw-error" class="hidden">Password cannot be empty</p>
             <button type="button" onclick="verifyInputs()">
               Claim your free trial
